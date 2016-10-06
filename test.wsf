@@ -1,0 +1,8 @@
+<job id="IncludeExample">
+   <script language="JScript" src="FSO.JS"/>
+   <script language="VBScript">
+      ' Get the free space for drive C.
+      s = GetFreeSpace("c:")
+      WScript.Echo s
+   </script>
+</job>
